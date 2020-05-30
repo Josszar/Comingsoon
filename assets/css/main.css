@@ -1,0 +1,43 @@
+
+nav {
+display: flex;
+justify-content: flex-end;
+margin-top: 20px;
+margin-bottom: 80px;
+}
+
+/*
+.socialmedia {
+display: flex;
+justify-content: end;
+
+}
+*/
+.coming {
+font-family: 'PT Sans', sans-serif;
+font-size: 70px;
+text-decoration: none;
+font-size: 7em;
+margin: auto;
+padding-left: 140px;
+display: flex;
+justify-content: left;
+color: black;
+margin-top: 30px;
+}
+
+a{
+padding-right: 120px;
+padding-left: 40px;
+
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+img {
+
+
+
+}
