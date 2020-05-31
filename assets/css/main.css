@@ -1,9 +1,13 @@
-
+body{
+  margin-right: auto;
+  margin-left: auto;
+  margin: auto;
+}
 nav {
-display: flex;
-justify-content: flex-end;
-margin-top: 20px;
-margin-bottom: 80px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-bottom: 80px;
 }
 
 /*
@@ -29,15 +33,62 @@ margin-top: 30px;
 a{
 padding-right: 120px;
 padding-left: 40px;
-
 }
 
 a:link, a:visited, a:active {
-    text-decoration:none;
+  text-decoration:none;
 }
 
 img {
+  text-align: end;
+}
+
+.cohete {
+  text-align: right;
+  margin-right: 200px;
+}
 
 
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: 
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+  a{
+  padding-right: 20px;
+  padding-left: 20px;
+
+}
+
+  .coming {
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+    font-size: 3em;
+    margin: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: left;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
+
+  .cohete {
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-top: 50px;
+    }
 
 }
